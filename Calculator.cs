@@ -1,10 +1,4 @@
-using System;
-
-public static class Calculator
-{
-    public static double? Calculate(int first, int second, string operation)
-    {
-        static string Calculate(int a, int b, string op)
+static string Calculate(int a, int b, string op)
     {
         switch (op)
         {
